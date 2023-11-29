@@ -14,7 +14,8 @@
 		9DFF701F2B17A46B00CA0F97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DFF701D2B17A46B00CA0F97 /* LaunchScreen.storyboard */; };
 		9DFF70272B17A57300CA0F97 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFF70262B17A57300CA0F97 /* Country.swift */; };
 		9DFF70292B17A71900CA0F97 /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 9DFF70282B17A71900CA0F97 /* countries.json */; };
-		9DFF702B2B17A7D300CA0F97 /* CountryTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFF702A2B17A7D300CA0F97 /* CountryTableVC.swift */; };
+		9DFF702B2B17A7D300CA0F97 /* CountriesTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFF702A2B17A7D300CA0F97 /* CountriesTableVC.swift */; };
+		9DFF702D2B17A8B200CA0F97 /* DetailTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFF702C2B17A8B200CA0F97 /* DetailTableVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +28,8 @@
 		9DFF70202B17A46B00CA0F97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DFF70262B17A57300CA0F97 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		9DFF70282B17A71900CA0F97 /* countries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = countries.json; sourceTree = "<group>"; };
-		9DFF702A2B17A7D300CA0F97 /* CountryTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryTableVC.swift; sourceTree = "<group>"; };
+		9DFF702A2B17A7D300CA0F97 /* CountriesTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesTableVC.swift; sourceTree = "<group>"; };
+		9DFF702C2B17A8B200CA0F97 /* DetailTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +66,8 @@
 				9DFF70142B17A46800CA0F97 /* SceneDelegate.swift */,
 				9DFF70262B17A57300CA0F97 /* Country.swift */,
 				9DFF70182B17A46800CA0F97 /* Main.storyboard */,
-				9DFF702A2B17A7D300CA0F97 /* CountryTableVC.swift */,
+				9DFF702A2B17A7D300CA0F97 /* CountriesTableVC.swift */,
+				9DFF702C2B17A8B200CA0F97 /* DetailTableVC.swift */,
 				9DFF701B2B17A46B00CA0F97 /* Assets.xcassets */,
 				9DFF701D2B17A46B00CA0F97 /* LaunchScreen.storyboard */,
 				9DFF70202B17A46B00CA0F97 /* Info.plist */,
@@ -145,8 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DFF702B2B17A7D300CA0F97 /* CountryTableVC.swift in Sources */,
+				9DFF702B2B17A7D300CA0F97 /* CountriesTableVC.swift in Sources */,
 				9DFF70272B17A57300CA0F97 /* Country.swift in Sources */,
+				9DFF702D2B17A8B200CA0F97 /* DetailTableVC.swift in Sources */,
 				9DFF70132B17A46800CA0F97 /* AppDelegate.swift in Sources */,
 				9DFF70152B17A46800CA0F97 /* SceneDelegate.swift in Sources */,
 			);
