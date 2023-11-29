@@ -27,6 +27,13 @@ class DetailTableVC: UITableViewController {
     return cell
   }
   
+  private func configureCell(_ cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+    guard let country = country else {
+      cell.textLabel?.text = "N/A"
+      return
+    }
+  }
+  
   //MARK: - Table view delegate methods
   
   override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
