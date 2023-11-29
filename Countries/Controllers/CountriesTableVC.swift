@@ -8,7 +8,6 @@
 import UIKit
 
 class CountriesTableVC: UITableViewController {
-  
   var countries: [Country] = []
   
   override func viewDidLoad() {

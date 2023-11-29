@@ -13,6 +13,7 @@ class DetailTableVC: UITableViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
+    self.title = country?.name ?? "Country Details"
   }
   
 }
