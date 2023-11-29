@@ -22,7 +22,7 @@ class DetailTableVC: UITableViewController {
   }
   
   override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-    let cell = tableView.dequeueReusableCell(withIdentifier: "Detail Cell", for: indexPath)
+    let cell = tableView.dequeueReusableCell(withIdentifier: "DetailCell", for: indexPath)
     configureCell(cell, forRowAt: indexPath)
     return cell
   }
