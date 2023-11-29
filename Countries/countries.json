@@ -1,0 +1,72 @@
+[
+    {
+        "name": "France",
+        "capital": "Paris",
+        "size": "551,695 km²",
+        "population": 67390000,
+        "currency": "Euro"
+    },
+    {
+        "name": "Japan",
+        "capital": "Tokyo",
+        "size": "377,975 km²",
+        "population": 125800000,
+        "currency": "Yen"
+    },
+    {
+        "name": "Australia",
+        "capital": "Canberra",
+        "size": "7,692,024 km²",
+        "population": 25690000,
+        "currency": "Australian Dollar"
+    },
+    {
+        "name": "Canada",
+        "capital": "Ottawa",
+        "size": "9,984,670 km²",
+        "population": 38005000,
+        "currency": "Canadian Dollar"
+    },
+    {
+        "name": "Brazil",
+        "capital": "Brasília",
+        "size": "8,515,767 km²",
+        "population": 213993437,
+        "currency": "Real"
+    },
+    {
+        "name": "South Africa",
+        "capital": "Pretoria",
+        "size": "1,221,037 km²",
+        "population": 59308690,
+        "currency": "Rand"
+    },
+    {
+        "name": "India",
+        "capital": "New Delhi",
+        "size": "3,287,263 km²",
+        "population": 1380004385,
+        "currency": "Indian Rupee"
+    },
+    {
+        "name": "Germany",
+        "capital": "Berlin",
+        "size": "357,386 km²",
+        "population": 83155031,
+        "currency": "Euro"
+    },
+    {
+        "name": "Mexico",
+        "capital": "Mexico City",
+        "size": "1,964,375 km²",
+        "population": 126014024,
+        "currency": "Mexican Peso"
+    },
+    {
+        "name": "Italy",
+        "capital": "Rome",
+        "size": "301,340 km²",
+        "population": 59554023,
+        "currency": "Euro"
+    }
+]
