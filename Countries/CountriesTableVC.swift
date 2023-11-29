@@ -21,6 +21,14 @@ class CountriesTableVC: UITableViewController {
     countries.count
   }
   
+  override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    <#code#>
+  }
+  
+  override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    <#code#>
+  }
+  
   func loadJson() {
     if let url = Bundle.main.url(forResource: "countries", withExtension: "json") {
       
