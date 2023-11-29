@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Country {
+struct Country: Codable {
   let name: String
   let capital: String
   let size: String
