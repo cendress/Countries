@@ -9,25 +9,25 @@
 /* Begin PBXBuildFile section */
 		9DFF70132B17A46800CA0F97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFF70122B17A46800CA0F97 /* AppDelegate.swift */; };
 		9DFF70152B17A46800CA0F97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFF70142B17A46800CA0F97 /* SceneDelegate.swift */; };
-		9DFF70172B17A46800CA0F97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFF70162B17A46800CA0F97 /* ViewController.swift */; };
 		9DFF701A2B17A46800CA0F97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DFF70182B17A46800CA0F97 /* Main.storyboard */; };
 		9DFF701C2B17A46B00CA0F97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DFF701B2B17A46B00CA0F97 /* Assets.xcassets */; };
 		9DFF701F2B17A46B00CA0F97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DFF701D2B17A46B00CA0F97 /* LaunchScreen.storyboard */; };
 		9DFF70272B17A57300CA0F97 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFF70262B17A57300CA0F97 /* Country.swift */; };
 		9DFF70292B17A71900CA0F97 /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 9DFF70282B17A71900CA0F97 /* countries.json */; };
+		9DFF702B2B17A7D300CA0F97 /* CountryTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFF702A2B17A7D300CA0F97 /* CountryTableVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9DFF700F2B17A46800CA0F97 /* Countries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Countries.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DFF70122B17A46800CA0F97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DFF70142B17A46800CA0F97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9DFF70162B17A46800CA0F97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9DFF70192B17A46800CA0F97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DFF701B2B17A46B00CA0F97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DFF701E2B17A46B00CA0F97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DFF70202B17A46B00CA0F97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DFF70262B17A57300CA0F97 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		9DFF70282B17A71900CA0F97 /* countries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = countries.json; sourceTree = "<group>"; };
+		9DFF702A2B17A7D300CA0F97 /* CountryTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryTableVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +62,9 @@
 			children = (
 				9DFF70122B17A46800CA0F97 /* AppDelegate.swift */,
 				9DFF70142B17A46800CA0F97 /* SceneDelegate.swift */,
-				9DFF70162B17A46800CA0F97 /* ViewController.swift */,
 				9DFF70262B17A57300CA0F97 /* Country.swift */,
 				9DFF70182B17A46800CA0F97 /* Main.storyboard */,
+				9DFF702A2B17A7D300CA0F97 /* CountryTableVC.swift */,
 				9DFF701B2B17A46B00CA0F97 /* Assets.xcassets */,
 				9DFF701D2B17A46B00CA0F97 /* LaunchScreen.storyboard */,
 				9DFF70202B17A46B00CA0F97 /* Info.plist */,
@@ -145,8 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DFF702B2B17A7D300CA0F97 /* CountryTableVC.swift in Sources */,
 				9DFF70272B17A57300CA0F97 /* Country.swift in Sources */,
-				9DFF70172B17A46800CA0F97 /* ViewController.swift in Sources */,
 				9DFF70132B17A46800CA0F97 /* AppDelegate.swift in Sources */,
 				9DFF70152B17A46800CA0F97 /* SceneDelegate.swift in Sources */,
 			);
