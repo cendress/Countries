@@ -16,6 +16,8 @@ class CountriesTableVC: UITableViewController {
     loadJson()
   }
   
+  //MARK: - Table view data source methods
+  
   override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     countries.count
   }
@@ -26,6 +28,8 @@ class CountriesTableVC: UITableViewController {
     cell.textLabel?.text = country.name
     return cell
   }
+  
+  //MARK: - Table view delegate methods
   
   override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     tableView.deselectRow(at: indexPath, animated: true)
@@ -40,6 +44,8 @@ class CountriesTableVC: UITableViewController {
   override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
     80
   }
+  
+  //MARK: - Loading & parsing JSON methods
   
   func loadJson() {
     if let url = Bundle.main.url(forResource: "countries", withExtension: "json") {
