@@ -8,6 +8,7 @@
 import UIKit
 
 class DetailTableVC: UITableViewController {
+  var country: Country?
   
   override func viewDidLoad() {
     super.viewDidLoad()
