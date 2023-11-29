@@ -23,7 +23,7 @@ class DetailTableVC: UITableViewController {
   
   override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     let cell = tableView.dequeueReusableCell(withIdentifier: "Detail Cell", for: indexPath)
-    //custom configure method
+    configureCell(cell, forRowAt: indexPath)
     return cell
   }
   
@@ -32,6 +32,23 @@ class DetailTableVC: UITableViewController {
       cell.textLabel?.text = "N/A"
       return
     }
+    
+    switch indexPath.row {
+    case 0:
+      cell.textLabel?.text = "Name: \(country.name)"
+    case 1:
+      cell.textLabel?.text = "Capital: \(country.capital)"
+    case 2:
+      cell.textLabel?.text = "Size: \(country.size)"
+    case 3:
+      cell.textLabel?.text = "Population: \(country.population)"
+    case 4:
+      cell.textLabel?.text = "Currency: \(country.currency)"
+    default:
+      cell.textLabel?.text = "N/A"
+    }
+    
+    cell.textLabel?.numberOfLines = 0
   }
   
   //MARK: - Table view delegate methods
