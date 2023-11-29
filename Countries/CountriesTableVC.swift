@@ -18,18 +18,30 @@ class CountriesTableVC: UITableViewController {
   
   func loadJson() {
     if let url = Bundle.main.url(forResource: "countries", withExtension: "json") {
-      if let data = try? Data(contentsOf: url) {
+      
+      do {
+        let data = try Data(contentsOf: url)
         parse(jsonData: data)
+      } catch {
+        print("Error loading JSON data, \(error.localizedDescription)")
       }
+    } else {
+      print("Could not find JSON file")
     }
   }
   
   func parse(jsonData: Data) {
     let decoder = JSONDecoder()
     
-    if let decodedData = try? decoder.decode([Country].self, from: jsonData) {
+    do {
+      let decodedData = try decoder.decode([Country].self, from: jsonData)
       countries = decodedData
-      tableView.reloadData()
+      
+      DispatchQueue.main.async {
+        self.tableView.reloadData()
+      }
+    } catch {
+      print("Error parsing JSON data, \(error.localizedDescription)")
     }
   }
 }
