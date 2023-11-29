@@ -68,5 +68,110 @@
         "size": "301,340 km²",
         "population": 59554023,
         "currency": "Euro"
+    },
+    {
+        "name": "United States",
+        "capital": "Washington, D.C.",
+        "size": "9,525,067 km²",
+        "population": 331449281,
+        "currency": "United States Dollar"
+    },
+    {
+        "name": "United Kingdom",
+        "capital": "London",
+        "size": "242,495 km²",
+        "population": 68207114,
+        "currency": "Pound Sterling"
+    },
+    {
+        "name": "China",
+        "capital": "Beijing",
+        "size": "9,596,961 km²",
+        "population": 1444216107,
+        "currency": "Renminbi"
+    },
+    {
+        "name": "Russia",
+        "capital": "Moscow",
+        "size": "17,098,242 km²",
+        "population": 145912025,
+        "currency": "Russian Ruble"
+    },
+    {
+        "name": "Spain",
+        "capital": "Madrid",
+        "size": "505,990 km²",
+        "population": 47351567,
+        "currency": "Euro"
+    },
+    {
+        "name": "Norway",
+        "capital": "Oslo",
+        "size": "385,207 km²",
+        "population": 5465631,
+        "currency": "Norwegian Krone"
+    },
+    {
+        "name": "Sweden",
+        "capital": "Stockholm",
+        "size": "450,295 km²",
+        "population": 10353442,
+        "currency": "Swedish Krona"
+    },
+    {
+        "name": "Netherlands",
+        "capital": "Amsterdam",
+        "size": "41,543 km²",
+        "population": 17441139,
+        "currency": "Euro"
+    },
+    {
+        "name": "South Korea",
+        "capital": "Seoul",
+        "size": "100,210 km²",
+        "population": 51780579,
+        "currency": "South Korean Won"
+    },
+    {
+        "name": "Argentina",
+        "capital": "Buenos Aires",
+        "size": "2,780,400 km²",
+        "population": 45605826,
+        "currency": "Argentine Peso"
+    },
+    {
+        "name": "Egypt",
+        "capital": "Cairo",
+        "size": "1,010,408 km²",
+        "population": 104124440,
+        "currency": "Egyptian Pound"
+    },
+    {
+        "name": "Nigeria",
+        "capital": "Abuja",
+        "size": "923,768 km²",
+        "population": 206139587,
+        "currency": "Naira"
+    },
+    {
+        "name": "Turkey",
+        "capital": "Ankara",
+        "size": "783,356 km²",
+        "population": 84339067,
+        "currency": "Turkish Lira"
+    },
+    {
+        "name": "Saudi Arabia",
+        "capital": "Riyadh",
+        "size": "2,149,690 km²",
+        "population": 34813867,
+        "currency": "Saudi Riyal"
+    },
+    {
+        "name": "Indonesia",
+        "capital": "Jakarta",
+        "size": "1,904,569 km²",
+        "population": 276361783,
+        "currency": "Indonesian Rupiah"
     }
 ]
