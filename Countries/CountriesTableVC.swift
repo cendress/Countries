@@ -34,6 +34,10 @@ class CountriesTableVC: UITableViewController {
     let country = countries[indexPath.row]
   }
   
+  override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+    80
+  }
+  
   func loadJson() {
     if let url = Bundle.main.url(forResource: "countries", withExtension: "json") {
       
