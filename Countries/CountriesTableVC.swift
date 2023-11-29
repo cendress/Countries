@@ -13,7 +13,12 @@ class CountriesTableVC: UITableViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    
+    tableView.dataSource = self
+    tableView.delegate = self
+  }
+  
+  override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    countries.count
   }
   
   func loadJson() {
