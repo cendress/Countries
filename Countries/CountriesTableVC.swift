@@ -15,6 +15,8 @@ class CountriesTableVC: UITableViewController {
     super.viewDidLoad()
     tableView.dataSource = self
     tableView.delegate = self
+    
+    loadJson()
   }
   
   override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -22,11 +24,14 @@ class CountriesTableVC: UITableViewController {
   }
   
   override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-    <#code#>
+    let cell = tableView.dequeueReusableCell(withIdentifier: "CountryCell", for: indexPath)
+    let country = countries[indexPath.row]
+    cell.textLabel?.text = country.name
+    return cell
   }
   
   override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-    <#code#>
+    let country = countries[indexPath.row]
   }
   
   func loadJson() {
